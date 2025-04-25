@@ -16,8 +16,7 @@ tracing = "0.1.40"
 tracing-subscriber = "0.3.18"
 sea-orm = { version = "1.1.2", features = ["sqlx-mysql", "runtime-tokio-rustls", "with-chrono", "debug-print", "macros", "chrono"] }
 tower = { version = "0.4.13", features = ["limit"] }
-casbin = "2.5.0"
-salvo-casbin = "0.73.3"
+
 
 [profile.dev]
 debug = 0
